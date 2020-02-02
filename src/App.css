@@ -1,38 +1,105 @@
-.App {
+.MainBg {
+  background: url(./images/bg2.jpg) no-repeat center;
+  min-height: 100vh;
+}
+.TitleTxt {
+  font: 38.88px "Source Sans Pro", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 1.5vw 1vw 2vw;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.span-bg {
+  width: 100%;
+  height: 100%;
+}
+.InnerContainer {
+  margin: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.FormContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TopContainer {
+  background-color: #1cc7d0;
+  padding: 3vw 4vw 5vw;
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.InnerContainer form {
+  background: #ffff;
+  padding: 2em;
+  margin: -2.5em 2.5em 2em;
+  border-radius: 4px;
+  box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
 }
-
-.App-link {
-  color: #61dafb;
+.TopContainer img {
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img {
+  max-width: 100%;
+}
+.LoginTxt {
+  color: #4e4d4d;
+  text-align: center;
+  margin-bottom: 20px;
+  font: 24px "Source Sans Pro", sans-serif;
+}
+.HandIconStyle {
+  margin-left: 10px;
+  color: black;
+}
+.InputStyle {
+  position: relative;
+  margin: 20px auto;
+  width: 100%;
+}
+.InputStyle input {
+  width: 100%;
+  padding: 13px 10px 13px 35px;
+  display: block;
+  border: 1px solid #1cc7d0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  background-color: white;
+  box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
+}
+.EnvIconStyle {
+  position: absolute;
+  display: block;
+  color: #1cc7d0;
+  left: 10px;
+  top: 12px;
+  font-size: 16px;
+}
+.ButtonStyle {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+  background-color: #1cc7d0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.FgtPswdStyle {
+  text-decoration: none;
+  color: #757474;
+  font-size: 16px;
+  margin: 0em 1em 2em;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: pointer;
+}
+.CopyRightContainer {
+  margin-top: 30px;
+  padding-bottom: 15px;
+}
+.CopyRightContainer h2 {
+  font: 16px "Source Sans Pro", sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 1.5;
 }
