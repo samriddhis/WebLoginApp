@@ -1,3 +1,4 @@
+/*Login Component style*/
 .MainBg {
   background: url(./images/bg2.jpg) no-repeat center;
   min-height: 100vh;
@@ -102,4 +103,142 @@
   letter-spacing: 1px;
   text-align: center;
   line-height: 1.5;
+}
+
+/*HeaderComponent style*/
+.headerContainer {
+  padding: 16px;
+  box-sizing: border-box;
+}
+.headerInnerContainer {
+  font: 16px "Source Sans Pro", sans-serif;
+  display: flex;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.leftHeader {
+  display: flex;
+  padding: 16px;
+  font-weight: 600;
+  text-align: justify;
+  width: 70%;
+}
+.headerContainer a {
+  text-decoration: none;
+  color: #555555;
+  font-family: "Oswald", sans-serif;
+  padding: 15px 10px;
+  text-align: center;
+}
+.rightHeader {
+  display: flex;
+  text-align: justify;
+  width: 30%;
+}
+.rightHeader div {
+  padding: 15px;
+  color: #555555;
+  font-family: "Oswald", sans-serif;
+  align-items: center;
+}
+.sIconStyle {
+  width: 60px;
+  height: 50px;
+}
+.searchDiv {
+  display: flex;
+}
+i.fa.fa-search {
+  padding: 5px;
+}
+i.fa.fa-tag {
+  padding: 5px;
+}
+i.fa.fa-user {
+  padding: 5px;
+}
+.emptyCartDiv {
+  display: flex;
+}
+.signInDiv {
+  display: flex;
+}
+
+/*Home component style*/
+.hcProductContainer {
+  padding: 0em 6em;
+}
+.hcProductMenu {
+  width: 20%;
+  box-sizing: border-box;
+  float: left;
+}
+.hcSectionContainer {
+  margin-bottom: 25px;
+  box-shadow: 1px 1px 1px 1px rgba(210, 210, 210, 0.75);
+  box-sizing: border-box;
+}
+.hcSectionContainer h1 {
+  background-color: #87d3f6;
+  padding: 15px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font: 16px "Source Sans Pro", sans-serif;
+}
+.hcRow1 {
+  height: 165px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.hcSectionContainer .checkBox {
+  outline: none;
+  border: none;
+  margin-bottom: 4px;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 27px;
+  color: #555555;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: normal;
+  display: block;
+}
+.hcRow3 .checkBox {
+}
+
+.hcProductBlock {
+  width: 75%;
+  float: right;
+}
+
+/*Style for list component*/
+.lcOuterContainer {
+  width: 100%;
+  height: 100%;
+}
+.lcInnerContainer {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.lcItemContainer {
+  width:28%;
+  float: left;
+  border: 1px solid lightgray;
+  border-radius: 1px;
+  margin:20px;
+  background-color:#87d3f6 ;
+}
+.itemImgStyle {
+  width: 100%;
+  height: 100%;
+}
+.lcItemBottomStyle {
+  border-top: 1px solid lightgray;
+}
+.lcItemBottomStyle h3,
+h4 {
+  text-align: center;
 }
