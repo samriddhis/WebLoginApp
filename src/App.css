@@ -142,7 +142,7 @@
   align-items: center;
 }
 .sIconStyle {
-  width: 60px;
+  width: 50px;
   height: 50px;
 }
 .searchDiv {
@@ -179,7 +179,7 @@ i.fa.fa-user {
   box-sizing: border-box;
 }
 .hcSectionContainer h1 {
-  background-color: #87d3f6;
+  background-color: #847057;
   padding: 15px 20px;
   color: #fff;
   text-transform: uppercase;
@@ -229,7 +229,7 @@ i.fa.fa-user {
   border: 1px solid lightgray;
   border-radius: 1px;
   margin:20px;
-  background-color:#87d3f6 ;
+  background-color:#847057 ;
 }
 .itemImgStyle {
   width: 100%;

@@ -7,6 +7,19 @@ export default class HomeComponent extends React.Component {
   constructor(props) {
     super(props);
   }
+  allSelectedClick() {
+    var selectedCheckBox = document.querySelector("#selectAllBox");
+    var checkboxes = document.querySelectorAll("input[type=checkbox]");
+    if (selectedCheckBox.checked) {
+      for (var i = 0; i < checkboxes.length; i++) {
+        checkboxes[i].checked = true;
+      }
+    } else {
+      for (var i = 0; i < checkboxes.length; i++) {
+        checkboxes[i].checked = false;
+      }
+    }
+  }
   render() {
     return (
       <div className="hcOuterContainer">
@@ -20,7 +33,12 @@ export default class HomeComponent extends React.Component {
                   <div className="hcRow1">
                     <div className="hcRow2">
                       <label className="checkBox">
-                        <input type="checkbox" name="checkbox" checked />
+                        <input
+                          type="checkbox"
+                          name="checkbox"
+                          id="selectAllBox"
+                          onClick={this.allSelectedClick}
+                        />
                         <i>All Category</i>
                       </label>
                     </div>

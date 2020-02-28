@@ -10,7 +10,7 @@ export default class HeaderComponent extends React.Component {
       <div className="headerContainer">
         <div className="headerInnerContainer">
           <div className="leftHeader">
-          <img src={require("../images/sicon.jpg")} alt="shopping" className="sIconStyle"/>
+          <img src={require("../images/sLogo.png")} alt="shopping" className="sIconStyle"/>
             <a href="#home" className="homeLink">
               Home
             </a>
